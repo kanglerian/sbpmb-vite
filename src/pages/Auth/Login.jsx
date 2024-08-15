@@ -47,8 +47,9 @@ const Login = () => {
   return (
     <main className="flex flex-col items-center justify-center bg-gradient-to-b from-lp3i-400 via-lp3i-200 to-lp3i-400 h-screen p-5 space-y-4">
       <Link to={`/`} className='flex items-center gap-3 py-3'>
-        <img src={LP3IPutih} alt="" width={180} />
-        <img src={KampusMandiriPutih} alt="" width={110} />
+        <h2 className="font-bold text-lg">E-Campus</h2>
+        {/* <img src={LP3IPutih} alt="" width={180} />
+        <img src={KampusMandiriPutih} alt="" width={110} /> */}
       </Link>
       <h3 className='inline-block py-2.5 px-4 text-sm text-white rounded-xl font-medium border border-gray-300'>SBPMB LP3I - Global Mandiri Utama Foundation</h3>
       <section className="max-w-lg w-full bg-white p-10 rounded-3xl shadow-xl space-y-6">
