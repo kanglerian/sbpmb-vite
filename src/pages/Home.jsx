@@ -27,15 +27,14 @@ const Home = () => {
             <img src={KampusMandiriPutih} alt="" width={130} />
           </header>
           <div className='space-y-6'>
-            <h3 className='inline-block py-2.5 px-4 text-xs md:text-sm rounded-xl font-medium border border-gray-300'>SBPMB LP3I - Global Mandiri Utama Foundation</h3>
+            <h3 className='inline-block py-2.5 px-4 text-xs md:text-sm rounded-xl font-medium border border-gray-300'>SBPMB E-Campus</h3>
             <div className='space-y-2'>
-              <h2 className='font-bold text-3xl md:text-4xl'>Gebyar Beasiswa Politeknik LP3I Se-Indonesia</h2>
-              <p className='text-sm md:text-base'>Temukan langkah terbaik untuk meraih impianmu! Bergabunglah dengan
-                Politeknik LP3I Kampus Tasikmalaya dan jadilah bagian dari perubahan
+              <h2 className='font-bold text-3xl md:text-4xl'>Gebyar Beasiswa E-Campus Se-Indonesia</h2>
+              <p className='text-sm md:text-base'>Temukan langkah terbaik untuk meraih impianmu! Bergabunglah dengan E-Campus dan jadilah bagian dari perubahan
                 yang lebih baik.</p>
             </div>
             <div className='flex items-center gap-3'>
-              <Link to={`/register`}>
+              {/* <Link to={`/register`}>
                 <button
                   type="button"
                   className="text-white bg-lp3i-600 hover:bg-lp3i-700 focus:ring-4 focus:ring-blue-300 font-medium rounded-xl text-sm px-5 py-2.5 space-x-1"
@@ -43,7 +42,7 @@ const Home = () => {
                   <span>Daftar Sekarang</span>
                   <FontAwesomeIcon icon={faFileLines} />
                 </button>
-              </Link>
+              </Link> */}
               <Link to={`/login`}>
                 <button
                   type="button"
