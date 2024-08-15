@@ -65,11 +65,12 @@ const Navbar = () => {
     <nav className="bg-white border-gray-200 dark:bg-gray-900">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <Link to={`/dashboard`} className="flex items-center">
-          <img
+          {/* <img
             src={logoLP3I}
             alt="Politeknik LP3I Kampus Tasikmalaya"
             width={200}
-          />
+          /> */}
+          <h2 className="font-bold text-lg">E-Campus</h2>
         </Link>
         <button
           onClick={() => setOpen(!open)}

@@ -23,8 +23,9 @@ const Home = () => {
       <section className="w-full max-w-6xl grid grid-cols-1 md:grid-cols-2 items-center mx-auto gap-5">
         <div className="text-white space-y-6 p-5">
           <header className="flex items-center gap-5 py-5">
-            <img src={LP3IPutih} alt="" width={170} />
-            <img src={KampusMandiriPutih} alt="" width={130} />
+            <h2 className='text-lg font-bold'>E-Campus</h2>
+            {/* <img src={LP3IPutih} alt="" width={170} />
+            <img src={KampusMandiriPutih} alt="" width={130} /> */}
           </header>
           <div className='space-y-6'>
             <h3 className='inline-block py-2.5 px-4 text-xs md:text-sm rounded-xl font-medium border border-gray-300'>SBPMB E-Campus</h3>
