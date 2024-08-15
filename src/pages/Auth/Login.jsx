@@ -97,10 +97,10 @@ const Login = () => {
                 </button>
               )
             }
-            <Link to={`/register`} className="text-gray-700 font-medium rounded-xl text-sm text-center">
+            {/* <Link to={`/register`} className="text-gray-700 font-medium rounded-xl text-sm text-center">
               <span>Belum punya akun? </span>
               <span className='underline font-semibold'>Daftar disini</span>
-            </Link>
+            </Link> */}
           </div>
         </form>
       </section>
